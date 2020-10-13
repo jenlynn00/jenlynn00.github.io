@@ -1,0 +1,36 @@
+nav {
+        background-color: gainsboro; list-style-type: none; text-align: center; margin:0;padding: 0; font-size: 20px; font-family: sans-serif;
+}
+
+
+nav li {display: inline-block;font-size: 20px; padding: 25px; font-family: sans-serif; list-style-type: none;}
+main {list-style-type: circle;}
+
+
+#menu-icon{
+    display: inline-block;
+}
+/*tablet portrait*/
+@media only screen and (max-width: 959px) {
+    h1 {
+        font-size: 120%;
+    }
+    h3 {
+        font-size: 120%;
+    }
+    p {
+    font-size: 120%;
+    }
+}
+/*mobile portrait*/
+@media only screen and (max-width: 479px) {
+    h1 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    p {
+    font-size: 150%;
+    }
+}
